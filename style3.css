@@ -1,0 +1,23 @@
+body * {
+    display: block;
+}
+
+iframe {
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(138, 96, 42);
+}
+article {
+    background-color: rgb(242, 255, 127);
+    height: 300px;
+
+}
+h1 {
+    font-size: 50px;
+}
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
