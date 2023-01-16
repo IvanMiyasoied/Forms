@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <main>
     <form>
-        <fieldset>
-            <label for="name">Name:</label>
-            <input type="text" placeholder="name">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Name">
+        <label for="name">Surnme:</label>
+        <input type="text" placeholder="Surnme">
+        <label for="Position">Your position:</label>
+        <select name="forscript">
+            <option value="0">Select your position</option>
+            <option value="1">Position 1</option>
+            <option value="2">Position 2</option>
+            <option value="3">Position 3</option>
+            <option value="4">Position 4</option>
+        </select>
+        <label for="msg">Describe yourself:</label>
+      <textarea name="user_message" placeholder="Write your describtion here"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    </main>
 
-        </fieldset>
-    </form>    
-</main>
 </html>

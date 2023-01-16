@@ -1,3 +1,17 @@
-form, form * {
-    display: block;
+form {
+    display: grid;
+    color: brown;
+}
+input {
+    width: 50%;
+}
+textarea {
+    width: 50%;
+}
+button {
+    margin: 16px;
+    width: 125px;
+}
+select {
+    width: 50%;
 }
